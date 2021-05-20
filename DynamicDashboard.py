@@ -10,7 +10,7 @@ from dash.dependencies import Input, Output, ALL, State, MATCH, ALLSMALLER
 import numpy as np
 from MainClass import MainClass
 
-df = pd.read_csv("data/hastings_pricing.csv")
+df = pd.read_csv("data/pricing_data.csv")
 data = df.copy()
 dropdownListItems = [{'label': "Monthly", 'value': "Monthly"},
                      {'label': "Weekly", 'value': "Weekly"},
